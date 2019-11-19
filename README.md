@@ -7,8 +7,8 @@ In this implementation, MobileNet V2 is used as base feature extractor (encoder)
 ### Model Documentation
 
 ##### Approach
-This project was implemented using MobileNet V1 and could be referred [here](https://github.com/ra9hur/SDC-P13-Semantic-Segmentation). MobileNet V1 had pre-trained 'imagenet' weight size of about (~ 70 MB). 
+Semantic segmentation was implemented using MobileNet V1 and could be referred [here](https://github.com/ra9hur/SDC-P13-Semantic-Segmentation). MobileNet V1 had pre-trained 'imagenet' weight size of about (~ 70 MB). 
 
-This implementation uses MobileNet V2. Pre-trained weight size is about (~ 9 MB) and this is significantly less when compared to version 1. 
+This implementation uses MobileNet V2. Pre-trained weight size is about (~ 9 MB) and this is significantly less when compared to MobileNet version 1. 
 
 Weight files for keras's mobilenetv2 model can be downloaded [here](https://github.com/JonathanCMitchell/mobilenet_v2_keras/releases/).
